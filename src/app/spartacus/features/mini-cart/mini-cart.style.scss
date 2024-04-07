@@ -1,0 +1,29 @@
+.minicart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon-container .item-count {
+    position: absolute;
+    top: -5px;
+    right: -10px; 
+    background-color: rgb(23, 145, 64);
+    color: #fff; 
+    border-radius: 50%;
+    width: 15px; 
+    height: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+  }
+  
+  .cart-icon-container .item-count::after {
+    content: '';
+  }
+  
